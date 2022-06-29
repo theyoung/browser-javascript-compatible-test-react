@@ -151,7 +151,7 @@ var Row = /*#__PURE__*/function (_React$Component) {
         try {
           result = eval(this.state.fn.replace(/\\"/g, '"'));
         } catch (err) {
-          console.log(err.message);
+          // console.log(err.message);
           message = err.message;
           result = false;
         }
@@ -20832,4 +20832,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
 }();
 /******/ })()
 ;
-//# sourceMappingURL=main.b022e382.js.map
+//# sourceMappingURL=main.e042491b.js.map

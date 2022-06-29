@@ -80,7 +80,7 @@ export default class Row extends React.Component {
             try{
                 result = eval(this.state.fn.replace(/\\"/g,'"'));
             } catch(err){
-                console.log(err.message);
+                // console.log(err.message);
                 message = err.message;
                 result = false;
             }
