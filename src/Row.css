@@ -1,0 +1,26 @@
+.Row {
+    display: inline-block;
+    background-color: white;
+    margin : 10px;
+    
+}
+
+.able {
+    border: 1px solid blue;
+}
+
+.disable {
+    border: 1px solid red;
+}
+
+li{
+    display:inline-block;
+    margin:10px;
+}
+.name{
+    font-weight:bold;
+    font-color:red;
+}
+.value{
+    font-weight:lighter;
+}
