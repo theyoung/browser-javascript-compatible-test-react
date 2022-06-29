@@ -85,7 +85,7 @@ export default class Row extends React.Component {
                 result = false;
             }
             
-            console.log(result+"->"+this.state.fn.replace(/\\"/g,'"'));
+            // console.log(result+"->"+this.state.fn.replace(/\\"/g,'"'));
 
             if(result || result === undefined){
                 this.setState({flag:true,message:message});

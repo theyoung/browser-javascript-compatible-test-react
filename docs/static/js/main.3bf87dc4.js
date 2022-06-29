@@ -154,9 +154,8 @@ var Row = /*#__PURE__*/function (_React$Component) {
           // console.log(err.message);
           message = err.message;
           result = false;
-        }
+        } // console.log(result+"->"+this.state.fn.replace(/\\"/g,'"'));
 
-        console.log(result + "->" + this.state.fn.replace(/\\"/g, '"'));
 
         if (result || result === undefined) {
           this.setState({
@@ -20832,4 +20831,4 @@ root.render( /*#__PURE__*/(0,jsx_runtime.jsx)(jsx_runtime.Fragment, {
 }();
 /******/ })()
 ;
-//# sourceMappingURL=main.e042491b.js.map
+//# sourceMappingURL=main.3bf87dc4.js.map
